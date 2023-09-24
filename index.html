@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form login</title>
+    <link rel="stylesheet" href="style2.css">
+</head>    
+
+
+<body>
+    <div class="login-container">
+        <h2>Login From </h2>
+        <form action="#" method="post">
+        <div class="input-container">
+            <input type="text" placeholder="Username" name="Username" required>
+        </div>
+        <div class="input-container">
+            <input type="password" placeholder="password" name="password" required>
+        </div>
+        <button type="submit">Login</button>
+        </form>
+        <div class="sosial-login">
+            <a href="https://instagram.com/relzzkeceh23">instagram</a>
+            dan
+            
+            <a href="https://faceebook.com/sulaimanfasha">Facebook</a> 
+            <p>BY Ahmad Farel</pz>
+            <p>Or Login With :)</p>
+            <div class="social-icon">
+                <a href="https://icons8.com/icon/17949/google" class="google">
+                    <img src="https://img.icons8.com/color/48/google-logo.png" alt="google">
+                </a>
+                <a href="https://icons8.com/icon/118497/facebook" class="facebook">
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new">
+                </a>
+                <a href="https//icons8.com/icon/62856/github" class="github">
+                    <img width="48" height="48" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github" />
+                </a>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
+<style>
+    body{
+        font-family: arial, sans-serif;
+    background-image: linear-gradient(skyblue,blue);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+form :focus{
+    outline: none;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    position: relative;
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.sosial-login {
+    margin-top: 20px;
+}
+
+.sosial-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.sosial-icon a {
+    margin: 0 10px;
+}
+
+.sosial-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
